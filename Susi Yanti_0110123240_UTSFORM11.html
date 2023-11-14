@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Periksa Kesehatan Gigi</title>
+
+</head>
+<body>
+    <h2 style"text-align: center;"> Booking Periksa Kesehatan Gigi</h2>
+    <from action="hasil.html" method="POST">
+        <fieldset>
+            <legend><b>Form input</b></legend>
+            <label for="Nama Pasien">Nama Pasien </label>
+            <input type="Text" name="Nama Pasien" id="Nama Pasien">
+            <br>
+            <br>
+
+            <label for="Pilih Dokter">Pilih Dokter </label>
+            <select name=" Pilih Dokter" id="Pilih Dokter">
+                <option value="Drg Amelia">Drg Amelia</option>
+                <option value="Dr.Yola">Dr.Yola</option>
+                <option value="Dr.Rina">Dr.Rina</option>
+
+            </select>
+            <br>
+            <br>
+           <label for="Pilih Layanan">Pilih Layanan </label>
+           <select name="Pilih Layanan" id="Pilih Layanan">
+                 <option value="Perawatan Gigi Anak">Perawatan Gigi Anak</option>
+                 <option value="Perawatan Gigi Dewasa">Perawatan Gigi Dewasa</option>
+           </select>
+           <br>
+           <br>
+
+           
+           <label for="Keluhan">Keluhan </label>
+           <input type="Text" name="Keluhan" id="Keluhan">
+
+           <br>
+           <br>
+
+           <label for="Pembayaran">Pembayaran </label>
+           <input type="radio" name="Pembayaran" id="Pembayaran" value="cash">
+           <label for=""> cash</label>
+           <input type="radio" name="Pembayaran" id="Pembayaran" value="cash">
+           <label for=""> transfer</label>
+           <input type="radio"name="Pembayaran" id="Pembayaran" value="cash">
+    
+           
+
+           
+           <label for="Tanggal Periksa">Tanggal Periksa </label>
+           <input type="datetime " name="Tanggal Periksa" id="Tanggal Periksa">
+
+           <br>
+           <br>
+           
+           <legend><b>form input</b></legend>
+           <label for="umur">umur </label>
+           <input type="Text" name="umur" id="umur">
+           <br>
+           <br>
+           
+
+           <input type="submit" value="simpan" id="simpan" >
+           
+           <input type="reset" value="reset" id="reset">
+           
+        </fieldset>
+    </from>
+</body>
+</html>
